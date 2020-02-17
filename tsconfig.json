@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.build.json",
+
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "module": "commonjs"
+    // "paths": {
+    //   "@mws/*": ["node_modules/@mws/*/src"]
+    // }
+  }
+}

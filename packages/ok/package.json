@@ -1,0 +1,21 @@
+{
+  "name": "@mws/ok",
+  "version": "1.0.0",
+  "main": "dist/index",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && npm run compile",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json"
+  },
+  "dependencies": {
+    "@mws/testami": "^1.0.0",
+    "@types/node": "^13.7.1"
+  },
+  "devDependencies": {
+    "typescript": "~3.4.5"
+  }
+}
